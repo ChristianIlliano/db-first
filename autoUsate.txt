@@ -1,0 +1,17 @@
+
+id              - UNSIGNED INT - PRIMARY_KEY (NOT NULL, UNIQUE) - AUTO_INCREMENT
+name            - VARCHAR (25)  NOT NULL
+date            - DATE
+price           - DECIMAL (3,3)
+installments    - DECIMAL (3,3)
+doors           - TINYINT
+fuel            - VARCHAR (255)    
+km              - VARCHAR (255)
+description     - TEXT
+insurance       - TINYINT 
+accidents       - TINYINT 
+reseller        - VARCHAR (255) 
+model           - TINYINT NOT NULL
+photos          - TEXT - DEFAULT("img/photo.jpg")
+color           - VARCHAR (255) 
+transmission    - TINYINT
